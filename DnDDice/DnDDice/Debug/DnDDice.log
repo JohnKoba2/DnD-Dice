@@ -1,3 +1,1 @@
-﻿  DnDDice.cpp
-c:\users\jkoba\source\repos\dnddice\dnddice\dnddice.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  DnDDice.vcxproj -> C:\Users\jkoba\source\repos\DnDDice\Debug\DnDDice.exe
+﻿
