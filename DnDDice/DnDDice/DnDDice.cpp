@@ -18,7 +18,7 @@ int main()
 
 void Dice()
 {
-	int sides, side= false, die, roll, total = 0, count = 1;
+	int sides, side= false, die, roll, total = 0, count = 1,mod;
 	cout << "How many sides?" << endl;
 	cin >> sides;
 
@@ -35,15 +35,19 @@ void Dice()
 			}
 	cout << "How many die?" << endl;
 	cin >> die;
+	cout << "what are your modifiers?" << endl;
+	cin >> mod;
 	cout << "Your rolls are : \n";
-
+	
+	
 	while (count <= die) {
 		roll = (rand() % sides) + 1;
 		total += roll;
 		cout << roll << " ";
 		count++;
 	}
-	cout << "\nThe total is :" << total << endl;	   
+	cout << "\nThe total of the roll is :" << total << endl;	   
+	cout << "With your modifiers your total is :" << (total + mod) << endl;
 }
 
 
