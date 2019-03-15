@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  DnDDice.cpp
+c:\users\jkoba\source\repos\dnddice\dnddice\dnddice.cpp(9): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  All 13 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  DnDDice.vcxproj -> C:\Users\jkoba\source\repos\DnDDice\Release\DnDDice.exe
